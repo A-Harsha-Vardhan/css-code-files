@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url("1600w-qKj0LvWaing.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: rgba(43,43,43);
+        }
+
+        .form-container {
+            background-color: #cecece94;
+            padding: 1% 10px;
+            margin: auto;
+            margin-top: 3rem;
+            border-radius: 25px;
+            width: 40%;
+            margin-bottom: 3rem;
+            min-height: auto;
+        }
+
+        .field input {
+            text-align: center;
+            padding: 12px;
+            width: 50%;
+            border-radius: 25px;
+            background-color: inherit;
+            margin: 10px 0px;
+            border: 1px solid rgba(110,98,122);
+        }
+
+        .field1 select {
+            border-radius: 25px;
+            padding: 10px;
+            background-color: inherit;
+            margin: 10px 0px;
+            width: 40%;
+        }
+        .field1 textarea{
+            padding: 10px;
+            margin: 10px 0px;
+            width: 50%;
+            background-color: inherit;
+            border-radius: 10px;
+        }
+        .field1 button{
+            padding: 10px;
+            background-color: inherit;
+            border-radius: 20px;
+            margin: 10px 0px;
+            width: 40%;
+        }
+        .district{
+            margin-bottom: 1px;
+            display: inline;
+            margin-right: 10px;
+        }
+        .field1 text{
+            text-align: left;
+        }
+        .photo{
+            width: 112%;
+        }
+        .button{
+            padding: 10px;
+            background-color: inherit;
+            border-radius: 20px;
+            margin: 10px 0px;
+            width: 40%;
+            border: 1px solid rgba(43,43,43) ;
+        }
+        .button:hover{
+            background-color: rgba(43,43,43);
+            color: whitesmoke;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="form-container" action="./login.html">
+        <h1 class="h1">Registration</h1>
+        <div class="field">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <input type="text" placeholder="Confirm Password">
+            <input type="number" placeholder="Mobile Number">
+        </div>
+        <div class="field1">
+            <b class="text">Gender  </b><input type="radio" name="gender" />Male
+            <input type="radio" name="gender" />Female
+            <p>
+                <b>Education </b><input type="checkbox">10th
+                <input type="checkbox">Inter
+                <input type="checkbox">Diploma
+                <input type="checkbox">Btech
+            </p>
+            <p class="district"><b>District </b></p>
+            <select>
+                <option value="">Select your District</option>
+                <option value="">Alluri Sitharama Raju</option>
+                <option value="">Anakapalli</option>
+                <option value="">Parvathipuram Manyam</option>
+                <option value="">Srikakulam</option>
+                <option value="">Visakhapatnam</option>
+                <option value="">Vizianagaram</option>
+                <option value="">Bapatla</option>
+                <option value="">Dr. B. R. Ambedkar Konaseema</option>
+                <option value="">East Godavari</option>
+                <option value="">Eluru</option>
+                <option value="">Guntur</option>
+                <option value="">Kakinada</option>
+                <option value="">Krishna</option>
+                <option value="">NTR</option>
+                <option value="">Palnadu</option>
+                <option value="">Prakasam</option>
+                <option value="">Sri Potti Sriramulu Nellore</option>
+                <option value="">West Godavari</option>
+                <option value="">Anantapur</option>
+                <option value="">Annamayya</option>
+                <option value="">Chittoor</option>
+                <option value="">YSR Kadapa</option>
+                <option value="">Kurnool</option>
+                <option value="">Nandyal</option>
+                <option value="">Sri Sathya Sai</option>
+                <option value="">Tirupati</option>
+            </select>
+            <br>
+            <textarea placeholder="Address"></textarea>
+            <p class="photo"><b>Upload your Photo </b><input type="file"> </p>
+            
+        </div>
+            <button class="button" type="submit">Register</button>
+    </form>
+</body>
+
+</html>
